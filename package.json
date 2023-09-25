@@ -1,0 +1,19 @@
+{
+  "name": "express_js_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supuna97/express_js_crud.git"
+  },
+  "author": "Supun Nanayakkara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supuna97/express_js_crud/issues"
+  },
+  "homepage": "https://github.com/supuna97/express_js_crud#readme"
+}

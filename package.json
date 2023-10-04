@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/supuna97/express_js_crud_operation_apis/issues"
   },
-  "homepage": "https://github.com/supuna97/express_js_crud_operation_apis#readme"
+  "homepage": "https://github.com/supuna97/express_js_crud_operation_apis#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "sequelize": "^6.33.0"
+  }
 }

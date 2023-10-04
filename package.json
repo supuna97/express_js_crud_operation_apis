@@ -1,7 +1,7 @@
 {
   "name": "express_js_crud_operation_apis",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeJS Express Crud operations APIs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/supuna97/express_js_crud_operation_apis.git"
   },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mvc"
+  ],
   "author": "Supun Nanayakkara",
   "license": "ISC",
   "bugs": {

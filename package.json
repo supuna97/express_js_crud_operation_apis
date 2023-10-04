@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supuna97/express_js_crud.git"
+    "url": "git+https://github.com/supuna97/express_js_crud_operation_apis.git"
   },
   "author": "Supun Nanayakkara",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/supuna97/express_js_crud/issues"
+    "url": "https://github.com/supuna97/express_js_crud_operation_apis/issues"
   },
-  "homepage": "https://github.com/supuna97/express_js_crud#readme"
+  "homepage": "https://github.com/supuna97/express_js_crud_operation_apis#readme"
 }

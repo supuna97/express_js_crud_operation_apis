@@ -1,9 +1,16 @@
 const user = require("../models/user");
+const { validationResult } = require("express-validator");
 
 module.exports = {
   // Create a new user
   post: async (req, res) => {
     try {
+      const errors = validationResult(req);
+
+      if (!errors.isEmpty()) {
+        return res.status(400).json({ message: errors.array() });
+      }
+
       const { name, address, age } = req.body;
 
       const newUser = await user.create({ name, address, age });
@@ -11,7 +18,7 @@ module.exports = {
       res.status(201).json(newUser);
     } catch (error) {
       console.error("Error creating user:", error);
-      res.status(500).json({ error: "Error creating user" });
+      res.status(500).json({ message: "Error creating user" });
     }
   },
 
@@ -23,13 +30,19 @@ module.exports = {
       res.status(200).json(users);
     } catch (error) {
       console.error("Error fetching users:", error);
-      res.status(500).json({ error: "Error fetching users from db" });
+      res.status(500).json({ message: "Error fetching users from db" });
     }
   },
 
   // Update user
   update: async (req, res) => {
     try {
+      const errors = validationResult(req);
+
+      if (!errors.isEmpty()) {
+        return res.status(400).json({ message: errors.array() });
+      }
+
       const id = req.params.id;
       const { name, address, age } = req.body;
 

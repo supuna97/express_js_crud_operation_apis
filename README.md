@@ -1,5 +1,5 @@
-# NodeJS Express REST APIS crud operations with MVC Pattern with Mysql
+## REST APIS crud operations with MVC Design Pattern with NodeJS Express and Mysql
 
-## Using technology
+### Using technology
 - Expressjs, Mysql, nodemon
 

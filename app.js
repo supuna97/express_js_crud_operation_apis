@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-require('dotenv').config();
+require("dotenv").config();
 
-const userRoute = require("./routes/api_v1");
+const userRoute = require("./src/routes/api_v1");
 
 //middleware
 app.use(express.json());

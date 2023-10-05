@@ -1,12 +1,18 @@
 const { Sequelize } = require("sequelize");
+require("dotenv").config();
 
-const sequelize = new Sequelize("ejs_crud", "root", "", {
-  host: "localhost",
-  dialect: "mysql",
-  define: {
-    timestamps: false,
-  },
-});
+const sequelize = new Sequelize(
+  process.env.DB_NAME,
+  process.env.DB_USERNAME,
+  process.env.DB_PASSWORD,
+  {
+    host: process.env.DB_HOST,
+    dialect: process.env.DB_CONNECTION,
+    define: {
+      timestamps: false,
+    },
+  }
+);
 
 // Test the connection
 // sequelize

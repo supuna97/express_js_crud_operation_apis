@@ -1,7 +1,7 @@
 {
   "name": "express_js_crud_operation_apis",
   "version": "1.0.0",
-  "description": "NodeJS Express Crud operations APIs.",
+  "description": "NodeJS Express Crud operations REST APIs with MVC Design pattern and Mysql.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,10 @@
   "keywords": [
     "nodejs",
     "expressjs",
-    "mvc"
+    "mvc",
+    "mysql",
+    "nodemon",
+    "crud"
   ],
   "author": "Supun Nanayakkara",
   "license": "ISC",

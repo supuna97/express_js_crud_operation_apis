@@ -1,7 +1,7 @@
 const { DataTypes } = require("sequelize");
-const sequelize = require("../config/database"); // Configure your database connection
+const db = require("../config/database"); // Configure your database
 
-const User = sequelize.define(
+const User = db.define(
   "User",
   {
     name: {
@@ -21,15 +21,5 @@ const User = sequelize.define(
     tableName: "users", // Specify your custom table name here
   }
 );
-
-// Synchronize the model with the database (create the table)
-// sequelize
-//   .sync()
-//   .then(() => {
-//     console.log("Table created successfully");
-//   })
-//   .catch((err) => {
-//     console.error("Error creating table:", err);
-//   });
 
 module.exports = User;

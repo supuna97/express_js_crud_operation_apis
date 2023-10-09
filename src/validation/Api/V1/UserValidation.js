@@ -1,6 +1,6 @@
 const { body } = require("express-validator");
 
-const userValidationRules = () => {
+const UserValidationRules = () => {
   return [
     // Validate name
     body("name")
@@ -23,5 +23,5 @@ const userValidationRules = () => {
 };
 
 module.exports = {
-  userValidationRules,
+  UserValidationRules,
 };

@@ -23,8 +23,7 @@
 - Open browser and hit `http://localhost:3000/`
 
 ### Available routes
-- GET    /api/users
-- GET    /api/users/:id
-- POST   /api/users
-- PUT    /api/users/:id
-- DELETE /api/users/:id
+- GET    /v1/user
+- POST   /v1/user/create
+- PUT    /v1/user/update/:id
+- DELETE /v1/user/delete/:id

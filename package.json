@@ -2,8 +2,9 @@
   "name": "express_js_crud_operation_apis",
   "version": "1.0.0",
   "description": "NodeJS Express Crud operations REST APIs with MVC Design pattern and Mysql.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "source .env; nodemon ..."
   },

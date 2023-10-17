@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./devops/docker
+      dockerfile: Dockerfile
+    ports:
+      - '3030:80'
+    volumes:
+      - .:/app
+    environment:
+      NODE_ENV: development
+    command: npm start

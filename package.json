@@ -33,7 +33,7 @@
     "express": "^4.19.2",
     "express-json-validator-middleware": "^3.0.1",
     "express-validator": "^7.0.1",
-    "mysql2": "^3.6.1",
+    "mysql2": "^3.9.4",
     "sequelize": "^6.33.0"
   }
 }
